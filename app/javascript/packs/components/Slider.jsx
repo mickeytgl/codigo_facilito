@@ -25,7 +25,7 @@ const Slider = ({ open, setOpen }) => {
         onClick={() => setOpen(false)}
       ></button>
       <div
-        style={open ? { marginLeft: "0px" } : { marginLeft: "-200px" }}
+        style={open ? { marginLeft: "0px" } : { marginLeft: "-400px" }}
         className={`transition-all sm:hidden ease-in duration-500 slider shadow-2xl top-0 fixed w-2/5 z-10 bg-white  h-screen ${
           open ? "open" : ""
         }`}
