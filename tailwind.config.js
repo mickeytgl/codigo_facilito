@@ -16,6 +16,9 @@ module.exports = {
       "7xl": "4.5rem"
     },
     extend: {
+      width: {
+        sm: "200px"
+      },
       colors: {
         green: {
           ...colors.green,
